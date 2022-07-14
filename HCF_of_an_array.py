@@ -1,10 +1,10 @@
 n=int(input())
 arr=list(map(int,input().split()))
 hcf=arr[0]
-i=1
-while(i<n):
-    if(arr[i]%hcf==0):
-        i+=1
+j=1
+while(j<n):
+    if(arr[j]%hcf==0):
+        j+=1
     else:
-        hcf=arr[i]%hcf
+        hcf=arr[j]%hcf
 print(hcf)
