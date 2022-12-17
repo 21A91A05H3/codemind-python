@@ -1,7 +1,7 @@
-a=input().lower().split()
-s='aeiou'
+s=input().lower().split()
+a="aeiou"
 c=0
-for i in a:
-    if i[0] in s and i[len(i)-1] not in s:
+for i in s:
+    if i[0] in a and i[len(i)-1] not in a:
         c+=1
 print(c)
